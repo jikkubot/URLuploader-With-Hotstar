@@ -52,15 +52,6 @@ Send /me to know current plan details
 
 Support Group : @FilmClubChannel
 © @MirrorAll"""
-ABOUT_USER ="""
-○ **My Name** : Hotstar Downloader
-○ **Creator** : <a href="https://t.me/jikkubarca">Jikku</a> 
-○ **Credits** : ```Everyone in this journey```
-○ **Language** : Python3
-○ **Library** : <a href="https://docs.pyrogram.org/">Pyrogram asyncio 0.16.1</a> 
-○ **Source Code** : <a href="https://t.me/nokkiirunnoippokittum">👉 Click Here</a> 
-○ **Server** : <a href="https://herokuapp.com/">Heroku</a> 
-○ **Build Status** : v2.1[Beta]"""
     REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
     REPLY_TO_DOC_FOR_SCSS = "Reply to a Telegram media to get screenshots"
@@ -89,3 +80,12 @@ You can use /rename command after receiving file to rename it with custom thumbn
 Free users only 1 request per 30 minutes.
 /upgrade or Try 1800 seconds later."""
     SLOW_URL_DECED = "Gosh that seems to be a very slow URL. Since you were screwing my home, I am in no mood to download this file. Meanwhile, why don't you try this:==> https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
+    ABOUT_USER ="""
+○ **My Name** : Hotstar Downloader
+○ **Creator** : <a href="https://t.me/jikkubarca">Jikku</a> 
+○ **Credits** : ```Everyone in this journey```
+○ **Language** : Python3
+○ **Library** : <a href="https://docs.pyrogram.org/">Pyrogram asyncio 0.16.1</a> 
+○ **Source Code** : <a href="https://t.me/nokkiirunnoippokittum">👉 Click Here</a> 
+○ **Server** : <a href="https://herokuapp.com/">Heroku</a> 
+○ **Build Status** : v2.1[Beta]"""
