@@ -1,26 +1,26 @@
 class Translation(object):
     START_TEXT = """Hello,
-This is a Telegram URL Upload Bot made by @prgofficial
+This is a Telegram URL Upload Bot made by @FilmClubChannel
 
 <b>Please send me any Direct download URL link, I can upload to telegram as File/Video</b>
 
 /help for more details..
 
-Support Group : @moviesonlydiscussion
-© @prgofficial"""
+Support Group : @FilmClubChannel
+© @MirrorAll"""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  /help for Details"
-    FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
-    SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
-URL | filename | username | password"""
+    FORMAT_SELECTION = "Current Thumbnail: <a href='{}'>Thumbnail</a> \n\nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons"
+    SET_CUSTOM_USERNAME_PASSWORD =" "
     NOYES_URL = "@robot URL detected. Please use https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
-    DOWNLOAD_START = "trying to download"
-    UPLOAD_START = "trying to upload"
+    DOWNLOAD_START = "**📥 DOWNLOADING 📥**"
+    UPLOAD_START = "**📤 UPLOADING 📤**"
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
-    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "Please rate me if you find me useful. Join : @moviesonlydiscussion"
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. \nJoin : @moviesonlydiscussion \nUploaded in {} seconds."
+    RCHD_TG_API_LIMIT = "Downloaded in {} seconds.Detected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations."
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "Please rate me if you find me useful. Join : @FilmClubChannel"
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS ="""```Downloaded in {} seconds.\nUploaded in {} seconds.\n```
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. \nJoin : @FilmClubChannel \nUploaded in {} seconds."
     NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
     NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://telegram.dog/ThankTelegram'>@SpEcHlDe</a>"
     SAVED_CUSTOM_THUMB_NAIL = "Custom video / file thumbnail saved. This image will be used in the video / file."
@@ -35,7 +35,7 @@ URL | filename | username | password"""
 --------
 Telegram ID: <code>{}</code>
 Plan name: Free User
-Expires on: 31/12/2020"""
+Expires on: Until my Death 😍"""
     HELP_USER = """Hai am URL Uploader bot..
     
 1. Send url (Link|New Name with Extension).
@@ -46,13 +46,22 @@ Expires on: 31/12/2020"""
    Video  - Give File as video without Screenshots
    DFile  - Give File without Screenshots
    
-<b>👉 Join For New Movies :</b> 👉 <a href="https://t.me/joinchat/AAAAAEw1pO1bBX6ylAb0hQ">JOIN</a>
+<b>👉 Join For New Movies :</b> 👉 <a href="https://t.me/Movies_Stream">JOIN</a>
 
 --------
 Send /me to know current plan details
 
-Support Group : @MoviEzoNlysuppOrT
-© @MovieZonlYheRe"""
+Support Group : @FilmClubChannel
+© @MirrorAll"""
+ABOUT_USER ="""
+○ **My Name** : Hotstar Downloader
+○ **Creator** : <a href="https://t.me/jikkubarca">Jikku</a> 
+○ **Credits** : ```Everyone in this journey```
+○ **Language** : Python3
+○ **Library** : <a href="https://docs.pyrogram.org/">Pyrogram asyncio 0.16.1</a> 
+○ **Source Code** : <a href="https://t.me/nokkiirunnoippokittum">👉 Click Here</a> 
+○ **Server** : <a href="https://herokuapp.com/">Heroku</a> 
+○ **Build Status** : v2.1[Beta]"""
     REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
     REPLY_TO_DOC_FOR_SCSS = "Reply to a Telegram media to get screenshots"
